@@ -9222,16 +9222,16 @@ header nav.nav-full-width {
   height: 100%;
 }
 .full-width-pull-menu .link-style-2 .dropdown ul li a {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 20px;
   color: #757575;
   padding: 0;
   margin: 0;
   display: block;
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 .full-width-pull-menu .link-style-2 .dropdown ul li {
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 0px solid #f0bb00;
   padding: 7px 0;
 }
 .full-width-pull-menu .link-style-2 .dropdown ul li:last-child {
@@ -9240,6 +9240,7 @@ header nav.nav-full-width {
 .full-width-pull-menu .link-style-2 .dropdown ul li a:hover,
 .dropdown ul li a:focus {
   background-color: inherit;
+  color: var(--base-color);
 }
 .full-width-pull-menu .link-style-2 .dropdown ul li ul.sub-menu {
   padding-left: 15px;
