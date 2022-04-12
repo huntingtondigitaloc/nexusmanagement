@@ -66,6 +66,12 @@ html {
   height: 100%;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* Horizontal line */
+hr {
+  color: white;
+
+}
 a,
 a:active,
 a:focus {
@@ -350,6 +356,11 @@ h6 {
   font-size: 20px;
   line-height: 26px;
 }
+
+.title-medium {
+  font-size: 70px;
+  line-height: 95px;
+}
 .title-large {
   font-size: 100px;
   line-height: 95px;
@@ -527,6 +538,17 @@ a.text-link-deep-pink:hover,
 a.text-link-deep-pink:hover i,
 a.text-link-deep-pink:focus,
 a.text-link-deep-pink:focus i {
+  color: #fff;
+}
+
+a.text-link-deep-blue,
+a.text-link-deep-blue i {
+  color: var(--base-color);
+}
+a.text-link-deep-blue:hover,
+a.text-link-deep-blue:hover i,
+a.text-link-deep-blue:focus,
+a.text-link-deep-blue:focus i {
   color: #fff;
 }
 
@@ -1447,7 +1469,7 @@ textarea.input-bg {
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.8;
   top: 0;
   left: 0;
 }
@@ -1761,13 +1783,25 @@ textarea.input-bg {
   border-color: #dbdbdb;
   color: #232323;
 }
-.btn.btn-transparent-deep-pink {
+.btn.btn-transparent-deep-blue {
   background: transparent;
   border-color: var(--base-color);
   color: var(--base-color);
 }
-.btn.btn-transparent-deep-pink:hover,
-.btn.btn-transparent-deep-pink:focus {
+.btn.btn-transparent-deep-blue:hover,
+.btn.btn-transparent-deep-blue:focus {
+  background: transparent;
+  border-color: #ffff00;
+  color: #fff;
+}
+
+.btn.btn-white-deep-blue {
+  background: transparent;
+  border-color: var(--base-color);
+  color: var(--base-color);
+}
+.btn.btn-white-deep-blue:hover,
+.btn.btn-white-deep-blue:focus {
   background: var(--base-color);
   border-color: var(--base-color);
   color: #fff;
@@ -8583,6 +8617,21 @@ nav.bootsnav.brand-center ul.nav > li.dropdown > ul.dropdown-menu {
   z-index: 1;
   max-width: 20%;
 }
+
+.nav-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 20%; */
+}
+
+.mainpage-header-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
 nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a {
   text-align: left;
 }

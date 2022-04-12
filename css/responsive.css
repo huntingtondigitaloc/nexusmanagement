@@ -4282,6 +4282,11 @@
 }
 
 @media only screen and (max-width: 991px) and (orientation: landscape) {
+    .title-medium {
+        font-size: 50px;
+        line-height:44px
+    }
+
     /* height */
     .md-landscape-h-300px { height: 300px !important; }
     .md-landscape-h-350px { height: 350px !important; }
@@ -4297,6 +4302,7 @@
 }
 
 @media (max-width: 767px) {
+
     h1, h2, h3, h4, h5, h6 {margin:0 0 17px; padding:0; letter-spacing: 0; font-weight: 400;}
     h1 {font-size:37px; line-height: 42px;}
     h2 {font-size:30px; line-height:36px}
@@ -5523,6 +5529,10 @@
 
     .page-title-large h1 {font-size: 35px; line-height: 35px;}
     .page-title-medium h1 { font-size: 25px; line-height: 30px;}
+    .title-medium {
+        font-size: 38px;
+        line-height:44px
+    }
     .title-large {font-size: 38px; line-height:44px}
     .title-extra-large {font-size: 35px; line-height:40px}
 
@@ -5876,6 +5886,11 @@
 }
 
 @media (max-width: 640px) {
+    .title-medium {
+        font-size: 38px;
+        line-height:44px
+    }
+
     /* special character */
     .special-char-medium {font-size: 60px;}
 
