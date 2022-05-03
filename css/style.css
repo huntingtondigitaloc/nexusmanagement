@@ -381,7 +381,7 @@ h6 {
 }
 .text-extra-dark-gray,
 .btn.text-extra-dark-gray {
-  color: #00aeef;
+  color: #3f3f3f;
 }
 .text-dark-gray,
 .btn.text-dark-gray {
@@ -410,6 +410,11 @@ h6 {
 .text-deep-blue,
 .btn.text-deep-blue {
   color: var(--base-color);
+}
+
+.text-blue,
+.btn.text-blue {
+  color: #00aeef;
 }
 
 /* dropcap */
